@@ -26,7 +26,7 @@ start - to start the car
 stop - to stop the car
 quit - to quit the game
         """)
-    elif command == 'quit':
+    elif command == 'quit' or command == 'exit':
         print("Game terminated")
         break
     else:
